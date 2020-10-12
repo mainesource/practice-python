@@ -18,7 +18,7 @@ def get_menu():
 def get_weather():
     my_city = input('Enter the city for the area you would like to lookup: ')
     BASE_URL = 'http://api.openweathermap.org/data/2.5/weather?q='
-    API_KEY = 'ea098208c9c97a59c5f982fd601fd9c2'
+    API_KEY = ''
     units = 'imperial'
     # updating URL
     URL = BASE_URL + my_city + '&units=' + units + '&appid=' + API_KEY
